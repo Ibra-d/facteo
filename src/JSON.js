@@ -1,0 +1,161 @@
+const optionsCourrier = ["COUR", "RECO", "COLIS" /* , "RIEN" */];
+const myJson = [
+    {
+        number: "95 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "93 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "91 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "89 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "87 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "85 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "83 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "81 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "79 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "77-73 PERI",
+        name: "Rue Gabriel-Peri",
+        bgColor: "#8080807d",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "34 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "36 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "38 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "40 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "42 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "44 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "46 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "48 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "50 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "52 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "54 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "56 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "58 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "60 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "62 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+    {
+        number: "64 LILAS",
+        name: "Rue des Lilas",
+        bgColor: "#ff000040",
+        options: /* ["COUR", "RECO", "COLIS", "RIEN"] */ optionsCourrier,
+    },
+];
+
+export default myJson;
