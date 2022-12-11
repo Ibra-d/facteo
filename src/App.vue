@@ -120,12 +120,12 @@ export default {
 <style lang="scss">
 /* Only Mobile */
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .only-mobile {
         display: none;
     }
 }
-@media (min-width: 400px) {
+@media (min-width: 600px) {
     .header,
     .rues,
     .fin {
