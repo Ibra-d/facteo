@@ -49,6 +49,7 @@
 </template>
 
 <script>
+// import { gsap } from 'gsap';
 import rues from "./JSON";
 import { onMounted, computed, ref } from "vue";
 //
@@ -73,6 +74,12 @@ export default {
                     document.querySelector(".go-up").style.opacity = 0;
                 }
             });
+            //
+            function calc() {
+                
+            }
+
+            calc();
         });
         //
         function setOptionPersistance(event) {
@@ -144,6 +151,7 @@ html {
     background-color: #fff4c2;
     color: #413f00;
     scroll-behavior: smooth;
+    overscroll-behavior: none;
 }
 
 *::-webkit-scrollbar {
